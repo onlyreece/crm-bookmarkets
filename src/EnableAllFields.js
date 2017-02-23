@@ -12,6 +12,6 @@ function  getXrmPage() {
 
 var xp = getXrmPage();
 xp.ui.controls.forEach(function(c,i){
-    if (c.getDisabled() === true)
+    if (c.getDisabled && c.getDisabled() === true)
         c.setDisabled(false);
 })
