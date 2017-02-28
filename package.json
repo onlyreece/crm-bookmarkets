@@ -5,6 +5,7 @@
   "main": "compile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ci":"node compile.js",
     "build": "npm --no-git-tag-version version patch && node compile.js"
   },
   "author": "",
