@@ -21,8 +21,12 @@
         },
         {
             "taskName": "compile",
-            "args": ["run","build"],
+            "args": ["run","build-ci"],
             "isBuildCommand": true
+        },
+        {
+            "taskName": "compile version",
+            "args": ["run","build"]
         }
     ]
 }
